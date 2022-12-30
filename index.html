@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Z Score Calculator</title>
+
+        <!-- CSS FILES -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+    </head>
+
+    <body id="section_1">
+
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
+                    
+                    <span>
+                        Z Score Calculator
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section style="min-height: 91vh;" class="volunteer-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="text-white mb-4">Z Score Calculator</h2>
+
+                          <form id="z-score-form">
+                            <div class="form-group">
+                              <label for="mean">Mean</label>
+                              <input type="number" class="form-control" id="mean" placeholder="Enter mean">
+                            </div>
+                            <div class="form-group">
+                              <label for="standard-deviation">Standard Deviation</label>
+                              <input type="number" class="form-control" id="standard-deviation" placeholder="Enter standard deviation">
+                            </div>
+                            <div class="form-group">
+                              <label for="value">Value</label>
+                              <input type="number" class="form-control" id="value" placeholder="Enter value">
+                            </div>
+                            <button type="button" id="calculate-button" class="btn btn-primary">Calculate</button>
+                          </form>
+                          
+                          <div id="result" class="alert alert-success"></div>
+                          
+                          <button type="button" id="clear-form-button" class="btn btn-secondary">Clear Form</button>
+
+
+
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/mulch.webp" class="volunteer-image img-fluid" alt="">
+
+                            <div class="custom-block-body text-center">
+                                <h4 class="text-white mt-lg-3 mb-lg-3">About Z-Score Calculator</h4>
+
+                                <p class="text-white">
+                                  Quickly and easily calculate your z-score with our online calculator.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
